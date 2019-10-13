@@ -1,0 +1,6 @@
+conv_mnist_pb
+*.pb
+*.h5
+mnist.json
+testSet/
+trainingSet/
