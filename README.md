@@ -1,5 +1,7 @@
 # go-tf-mnist
 
+**in development ...**
+
 sample of Go & TensorFlow using model trained by Python.
 
 ## Quick Start
