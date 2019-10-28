@@ -68,9 +68,10 @@ model.fit(train_data, train_label,
 scores = model.evaluate(test_data, test_label, verbose=1)
 
 # モデル保存処理
-json_string = model.to_json()
-open('mnist.json', 'w').write(json_string)
-model.save_weights('mnist.h5')
+# json_string = model.to_json()
+# open('mnist.json', 'w').write(json_string)
+# model.save_weights('mnist.h5')
+model.save('mnist.h5')
 
 # スコアを標準出力に出力
 print('Test loss:', scores[0])
